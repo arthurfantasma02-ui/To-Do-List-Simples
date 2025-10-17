@@ -27,12 +27,15 @@ src/
 │ ├─ TodoItem.jsx ← Cada item da lista (com botão de remover e marcar)
 │ └─ TodoFilters.jsx ← Botões para filtrar as tarefas
 │
+
 ├─ context/
 │ └─ TodoContext.jsx ← Gerencia o estado global da lista via Context API
 │
+
 ├─ hooks/
 │ └─ useLocalStorage.js ← Hook customizado para salvar tarefas no localStorage
 │
+
 ├─ App.jsx ← Componente principal que junta tudo
 ├─ App.css ← Estilos (tema de caderno digital)
 └─ main.jsx ← Ponto de entrada da aplicação
