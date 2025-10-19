@@ -1,0 +1,110 @@
+/* Estilo geral "papel bonito" */
+body {
+  background-color: #f5f2e7;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Caixa principal */
+.app {
+  background-color: #fffdf5;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-top: 60px;
+  width: 90%;
+  max-width: 500px;
+  border: 2px solid #e8e3d8;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #5a4b2f;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+}
+
+/* Campo de input + botão */
+input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #e0d9c7;
+  outline: none;
+  font-size: 16px;
+  background-color: #fcfaf3;
+  transition: 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #b8a97f;
+  background-color: #fff;
+}
+
+button {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d2c5a7;
+  color: #3b3525;
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #bfae86;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #fdfbf6;
+  border: 1px solid #e7dfca;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #a89e88;
+}
+
+/* Botões de filtro */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.filter-buttons button {
+  background-color: #ebe3d0;
+  margin: 0 5px;
+}
+
+.filter-buttons button:hover {
+  background-color: #d8cfb8;
+}

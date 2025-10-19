@@ -1,5 +1,5 @@
 {
-  "name": "card.json",
+  "name": "todolist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "prop-types": "^15.8.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "styled-components": "^6.1.19"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
